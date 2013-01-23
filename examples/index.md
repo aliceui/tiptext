@@ -5,27 +5,6 @@
 <link type="text/css" rel="stylesheet" media="screen" href="../src/tiptext.css">
 
 <style>
-@font-face {
-    font-family: "rei";
-    src: url("https://i.test.alipay.net/common/fonts/rei.eot"); /* IE9*/
-    src: url("https://i.test.alipay.net/common/fonts/rei.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-         url("https://i.test.alipay.net/common/fonts/rei.woff") format("woff"), /* chrome 6+、firefox 3.6+、Safari5.1+、Opera 11+ */
-         url("https://i.test.alipay.net/common/fonts/rei.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
-         url("https://i.test.alipay.net/common/fonts/rei.svg#rei") format("svg"); /* iOS 4.1- */
-    font-weight: normal;
-    font-style: normal;
-}
-.iconfont {
-    font-family: "rei";
-    font-size: 12px;
-    font-style: normal;
-    color: #4d4d4d;
-    cursor: default;
-    -webkit-font-smoothing: antialiased;
-}
-</style>
-
-<style>
 .ui-tiptext-container {
     margin-top: 8px;
 }

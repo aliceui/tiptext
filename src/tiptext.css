@@ -19,11 +19,11 @@
 }
 .ui-tiptext .iconfont {
     vertical-align: bottom;
-    font-size: 15px;
+    font-size: 14px;
     text-shadow: 0 1px 0 #fff;
 }
 .ui-tiptext-icon {
-    margin-right:8px;
+    margin-right:5px;
     display:inline-block;
     *display:inline;
     *zoom:1;

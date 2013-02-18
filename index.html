@@ -46,30 +46,224 @@
         <p class="version">当前版本：<a href="http://aralejs.org/docs/online-status.html#alice-tiptext" title="点击查看此组件发布情况">1.0.0</a></p>
         <p class="description"></p>
         <a class="source" href="" target="_blank">View the Project</a>
-        <ul id="navigation" role="navigation">
-          <li><a href="./">文档</a></li>
-          <li><a href="./examples/">演示</a></li>
-          <li><a class="issue-link" href="" target="_blank">讨论</a></li>
-        </ul>
-        
-
-<ul id="module-output"> 
-</ul>
-<div id="output-card">
-    <h3>alice/tiptext/1.0.0/<a target="_blank" id="output-file"></a></h3>
-    <p>这是模块的输出文件，请 require 或 seajs.use 以上 ID 来使用本文件，具体 API 请阅读文档。</p>
-</div>
-
       </aside>
       <div id="content-wrapper">
         <div id="content">
 <article class="hentry">
   <h1 class="entry-title">tiptext</h1>
   <div class="entry-content">
-    <p>// description</p>
+    <p>带各类图标的提示文案。</p>
 
 <hr/>
-<h2 id="%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E">使用说明</h2><h2 id="api">API</h2>
+<h2 id="%E6%BC%94%E7%A4%BA">演示</h2>
+<p><link type="text/css" rel="stylesheet" media="screen" href="../src/tiptext.css"></p>
+
+<style>
+.ui-tiptext-container {
+    margin-top: 8px;
+}
+</style>
+<h2 id="ui-tiptext-%E6%96%87%E6%9C%AC">ui-tiptext 文本</h2>
+<div class="nico-insert-code"><p class="ui-tiptext ui-tiptext-message">
+    <i class="ui-tiptext-icon iconfont" title="提示">&#x00ED;</i>此服务支付宝不收取任何费用。
+</p>
+
+<p class="ui-tiptext ui-tiptext-error">
+    <i class="ui-tiptext-icon iconfont" title="出错">&#x006B;</i>此服务支付宝不收取任何费用。
+</p>
+
+<p class="ui-tiptext ui-tiptext-warning">
+    <i class="ui-tiptext-icon iconfont" title="警告">&#x00EC;</i>此服务支付宝不收取任何费用。
+</p>
+
+<p class="ui-tiptext ui-tiptext-success">
+    <i class="ui-tiptext-icon iconfont" title="成功">&#x00EF;</i>此服务支付宝不收取任何费用。
+</p>
+
+<p class="ui-tiptext ui-tiptext-question">
+    <i class="ui-tiptext-icon iconfont" title="疑问">&#x00F1;</i>此服务支付宝不收取任何费用。
+</p>
+
+<p class="ui-tiptext ui-tiptext-stop">
+    <i class="ui-tiptext-icon iconfont" title="阻止">&#x00EE;</i>此服务支付宝不收取任何费用。
+</p>
+
+<p class="ui-tiptext ui-tiptext-wait">
+    <i class="ui-tiptext-icon iconfont" title="等待">&#x00F3;</i>此服务支付宝不收取任何费用。
+</p>
+</div>
+<div class="highlight"><pre><code class="xml"><span class="tag">&lt;<span class="title">p</span> <span class="attribute">class</span>=<span class="value">"ui-tiptext ui-tiptext-message"</span>&gt;</span>
+    <span class="tag">&lt;<span class="title">i</span> <span class="attribute">class</span>=<span class="value">"ui-tiptext-icon iconfont"</span> <span class="attribute">title</span>=<span class="value">"提示"</span>&gt;</span>&amp;#x00ED;<span class="tag">&lt;/<span class="title">i</span>&gt;</span>此服务支付宝不收取任何费用。
+<span class="tag">&lt;/<span class="title">p</span>&gt;</span>
+
+<span class="tag">&lt;<span class="title">p</span> <span class="attribute">class</span>=<span class="value">"ui-tiptext ui-tiptext-error"</span>&gt;</span>
+    <span class="tag">&lt;<span class="title">i</span> <span class="attribute">class</span>=<span class="value">"ui-tiptext-icon iconfont"</span> <span class="attribute">title</span>=<span class="value">"出错"</span>&gt;</span>&amp;#x006B;<span class="tag">&lt;/<span class="title">i</span>&gt;</span>此服务支付宝不收取任何费用。
+<span class="tag">&lt;/<span class="title">p</span>&gt;</span>
+
+<span class="tag">&lt;<span class="title">p</span> <span class="attribute">class</span>=<span class="value">"ui-tiptext ui-tiptext-warning"</span>&gt;</span>
+    <span class="tag">&lt;<span class="title">i</span> <span class="attribute">class</span>=<span class="value">"ui-tiptext-icon iconfont"</span> <span class="attribute">title</span>=<span class="value">"警告"</span>&gt;</span>&amp;#x00EC;<span class="tag">&lt;/<span class="title">i</span>&gt;</span>此服务支付宝不收取任何费用。
+<span class="tag">&lt;/<span class="title">p</span>&gt;</span>
+
+<span class="tag">&lt;<span class="title">p</span> <span class="attribute">class</span>=<span class="value">"ui-tiptext ui-tiptext-success"</span>&gt;</span>
+    <span class="tag">&lt;<span class="title">i</span> <span class="attribute">class</span>=<span class="value">"ui-tiptext-icon iconfont"</span> <span class="attribute">title</span>=<span class="value">"成功"</span>&gt;</span>&amp;#x00EF;<span class="tag">&lt;/<span class="title">i</span>&gt;</span>此服务支付宝不收取任何费用。
+<span class="tag">&lt;/<span class="title">p</span>&gt;</span>
+
+<span class="tag">&lt;<span class="title">p</span> <span class="attribute">class</span>=<span class="value">"ui-tiptext ui-tiptext-question"</span>&gt;</span>
+    <span class="tag">&lt;<span class="title">i</span> <span class="attribute">class</span>=<span class="value">"ui-tiptext-icon iconfont"</span> <span class="attribute">title</span>=<span class="value">"疑问"</span>&gt;</span>&amp;#x00F1;<span class="tag">&lt;/<span class="title">i</span>&gt;</span>此服务支付宝不收取任何费用。
+<span class="tag">&lt;/<span class="title">p</span>&gt;</span>
+
+<span class="tag">&lt;<span class="title">p</span> <span class="attribute">class</span>=<span class="value">"ui-tiptext ui-tiptext-stop"</span>&gt;</span>
+    <span class="tag">&lt;<span class="title">i</span> <span class="attribute">class</span>=<span class="value">"ui-tiptext-icon iconfont"</span> <span class="attribute">title</span>=<span class="value">"阻止"</span>&gt;</span>&amp;#x00EE;<span class="tag">&lt;/<span class="title">i</span>&gt;</span>此服务支付宝不收取任何费用。
+<span class="tag">&lt;/<span class="title">p</span>&gt;</span>
+
+<span class="tag">&lt;<span class="title">p</span> <span class="attribute">class</span>=<span class="value">"ui-tiptext ui-tiptext-wait"</span>&gt;</span>
+    <span class="tag">&lt;<span class="title">i</span> <span class="attribute">class</span>=<span class="value">"ui-tiptext-icon iconfont"</span> <span class="attribute">title</span>=<span class="value">"等待"</span>&gt;</span>&amp;#x00F3;<span class="tag">&lt;/<span class="title">i</span>&gt;</span>此服务支付宝不收取任何费用。
+<span class="tag">&lt;/<span class="title">p</span>&gt;</span>
+</code></pre></div><h2 id="ui-tip-container-%E5%8C%BA%E5%9D%97">ui-tip-container 区块</h2>
+<div class="nico-insert-code"><div class="ui-tiptext-container ui-tiptext-container-message">
+    <p class="ui-tiptext ui-tiptext-message">
+        <i class="ui-tiptext-icon iconfont" title="提示">&#x00ED;</i>此服务支付宝不收取任何费用。
+    </p>
+</div>
+
+<div class="ui-tiptext-container ui-tiptext-container-error">
+    <p class="ui-tiptext ui-tiptext-error">
+        <i class="ui-tiptext-icon iconfont" title="提示">&#x006B;</i>此服务支付宝不收取任何费用。
+    </p>
+</div>
+
+<div class="ui-tiptext-container ui-tiptext-container-warning">
+    <p class="ui-tiptext ui-tiptext-warning">
+        <i class="ui-tiptext-icon iconfont" title="提示">&#x00EC;</i>此服务支付宝不收取任何费用。
+    </p>
+</div>
+
+<div class="ui-tiptext-container ui-tiptext-container-success">
+    <p class="ui-tiptext ui-tiptext-success">
+        <i class="ui-tiptext-icon iconfont" title="提示">&#x00EF;</i>此服务支付宝不收取任何费用。
+    </p>
+</div>
+
+<div class="ui-tiptext-container ui-tiptext-container-question">
+    <p class="ui-tiptext ui-tiptext-question">
+        <i class="ui-tiptext-icon iconfont" title="提示">&#x00F1;</i>此服务支付宝不收取任何费用。
+    </p>
+</div>
+
+<div class="ui-tiptext-container ui-tiptext-container-stop">
+    <p class="ui-tiptext ui-tiptext-stop">
+        <i class="ui-tiptext-icon iconfont" title="提示">&#x00EE;</i>此服务支付宝不收取任何费用。
+    </p>
+</div>
+
+<div class="ui-tiptext-container ui-tiptext-container-wait">
+    <p class="ui-tiptext ui-tiptext-wait">
+        <i class="ui-tiptext-icon iconfont" title="提示">&#x00F3;</i>此服务支付宝不收取任何费用。
+    </p>
+</div>
+</div>
+<div class="highlight"><pre><code class="xml"><span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"ui-tiptext-container ui-tiptext-container-message"</span>&gt;</span>
+    <span class="tag">&lt;<span class="title">p</span> <span class="attribute">class</span>=<span class="value">"ui-tiptext ui-tiptext-message"</span>&gt;</span>
+        <span class="tag">&lt;<span class="title">i</span> <span class="attribute">class</span>=<span class="value">"ui-tiptext-icon iconfont"</span> <span class="attribute">title</span>=<span class="value">"提示"</span>&gt;</span>&amp;#x00ED;<span class="tag">&lt;/<span class="title">i</span>&gt;</span>此服务支付宝不收取任何费用。
+    <span class="tag">&lt;/<span class="title">p</span>&gt;</span>
+<span class="tag">&lt;/<span class="title">div</span>&gt;</span>
+
+<span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"ui-tiptext-container ui-tiptext-container-error"</span>&gt;</span>
+    <span class="tag">&lt;<span class="title">p</span> <span class="attribute">class</span>=<span class="value">"ui-tiptext ui-tiptext-error"</span>&gt;</span>
+        <span class="tag">&lt;<span class="title">i</span> <span class="attribute">class</span>=<span class="value">"ui-tiptext-icon iconfont"</span> <span class="attribute">title</span>=<span class="value">"提示"</span>&gt;</span>&amp;#x006B;<span class="tag">&lt;/<span class="title">i</span>&gt;</span>此服务支付宝不收取任何费用。
+    <span class="tag">&lt;/<span class="title">p</span>&gt;</span>
+<span class="tag">&lt;/<span class="title">div</span>&gt;</span>
+
+<span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"ui-tiptext-container ui-tiptext-container-warning"</span>&gt;</span>
+    <span class="tag">&lt;<span class="title">p</span> <span class="attribute">class</span>=<span class="value">"ui-tiptext ui-tiptext-warning"</span>&gt;</span>
+        <span class="tag">&lt;<span class="title">i</span> <span class="attribute">class</span>=<span class="value">"ui-tiptext-icon iconfont"</span> <span class="attribute">title</span>=<span class="value">"提示"</span>&gt;</span>&amp;#x00EC;<span class="tag">&lt;/<span class="title">i</span>&gt;</span>此服务支付宝不收取任何费用。
+    <span class="tag">&lt;/<span class="title">p</span>&gt;</span>
+<span class="tag">&lt;/<span class="title">div</span>&gt;</span>
+
+<span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"ui-tiptext-container ui-tiptext-container-success"</span>&gt;</span>
+    <span class="tag">&lt;<span class="title">p</span> <span class="attribute">class</span>=<span class="value">"ui-tiptext ui-tiptext-success"</span>&gt;</span>
+        <span class="tag">&lt;<span class="title">i</span> <span class="attribute">class</span>=<span class="value">"ui-tiptext-icon iconfont"</span> <span class="attribute">title</span>=<span class="value">"提示"</span>&gt;</span>&amp;#x00EF;<span class="tag">&lt;/<span class="title">i</span>&gt;</span>此服务支付宝不收取任何费用。
+    <span class="tag">&lt;/<span class="title">p</span>&gt;</span>
+<span class="tag">&lt;/<span class="title">div</span>&gt;</span>
+
+<span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"ui-tiptext-container ui-tiptext-container-question"</span>&gt;</span>
+    <span class="tag">&lt;<span class="title">p</span> <span class="attribute">class</span>=<span class="value">"ui-tiptext ui-tiptext-question"</span>&gt;</span>
+        <span class="tag">&lt;<span class="title">i</span> <span class="attribute">class</span>=<span class="value">"ui-tiptext-icon iconfont"</span> <span class="attribute">title</span>=<span class="value">"提示"</span>&gt;</span>&amp;#x00F1;<span class="tag">&lt;/<span class="title">i</span>&gt;</span>此服务支付宝不收取任何费用。
+    <span class="tag">&lt;/<span class="title">p</span>&gt;</span>
+<span class="tag">&lt;/<span class="title">div</span>&gt;</span>
+
+<span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"ui-tiptext-container ui-tiptext-container-stop"</span>&gt;</span>
+    <span class="tag">&lt;<span class="title">p</span> <span class="attribute">class</span>=<span class="value">"ui-tiptext ui-tiptext-stop"</span>&gt;</span>
+        <span class="tag">&lt;<span class="title">i</span> <span class="attribute">class</span>=<span class="value">"ui-tiptext-icon iconfont"</span> <span class="attribute">title</span>=<span class="value">"提示"</span>&gt;</span>&amp;#x00EE;<span class="tag">&lt;/<span class="title">i</span>&gt;</span>此服务支付宝不收取任何费用。
+    <span class="tag">&lt;/<span class="title">p</span>&gt;</span>
+<span class="tag">&lt;/<span class="title">div</span>&gt;</span>
+
+<span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"ui-tiptext-container ui-tiptext-container-wait"</span>&gt;</span>
+    <span class="tag">&lt;<span class="title">p</span> <span class="attribute">class</span>=<span class="value">"ui-tiptext ui-tiptext-wait"</span>&gt;</span>
+        <span class="tag">&lt;<span class="title">i</span> <span class="attribute">class</span>=<span class="value">"ui-tiptext-icon iconfont"</span> <span class="attribute">title</span>=<span class="value">"提示"</span>&gt;</span>&amp;#x00F3;<span class="tag">&lt;/<span class="title">i</span>&gt;</span>此服务支付宝不收取任何费用。
+    <span class="tag">&lt;/<span class="title">p</span>&gt;</span>
+<span class="tag">&lt;/<span class="title">div</span>&gt;</span>
+</code></pre></div><h2 id="ui-tip-container-%E5%B8%A6%E7%AE%AD%E5%A4%B4">ui-tip-container 带箭头</h2>
+<div class="nico-insert-code"><div class="ui-tiptext-container ui-tiptext-container-message">
+    <div class="ui-tiptext-arrow ui-tiptext-arrowup">
+        <em>◆</em>
+        <span>◆</span>
+    </div>
+    <p class="ui-tiptext ui-tiptext-message">
+        <i class="ui-tiptext-icon iconfont" title="提示">&#x00ED;</i>此服务支付宝不收取任何费用。
+    </p>
+</div>
+</div>
+<div class="highlight"><pre><code class="xml"><span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"ui-tiptext-container ui-tiptext-container-message"</span>&gt;</span>
+    <span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"ui-tiptext-arrow ui-tiptext-arrowup"</span>&gt;</span>
+        <span class="tag">&lt;<span class="title">em</span>&gt;</span>◆<span class="tag">&lt;/<span class="title">em</span>&gt;</span>
+        <span class="tag">&lt;<span class="title">span</span>&gt;</span>◆<span class="tag">&lt;/<span class="title">span</span>&gt;</span>
+    <span class="tag">&lt;/<span class="title">div</span>&gt;</span>
+    <span class="tag">&lt;<span class="title">p</span> <span class="attribute">class</span>=<span class="value">"ui-tiptext ui-tiptext-message"</span>&gt;</span>
+        <span class="tag">&lt;<span class="title">i</span> <span class="attribute">class</span>=<span class="value">"ui-tiptext-icon iconfont"</span> <span class="attribute">title</span>=<span class="value">"提示"</span>&gt;</span>&amp;#x00ED;<span class="tag">&lt;/<span class="title">i</span>&gt;</span>此服务支付宝不收取任何费用。
+    <span class="tag">&lt;/<span class="title">p</span>&gt;</span>
+<span class="tag">&lt;/<span class="title">div</span>&gt;</span>
+</code></pre></div>
+<div class="nico-insert-code"><div class="ui-tiptext-container ui-tiptext-container-message">
+    <div class="ui-tiptext-arrow ui-tiptext-arrowdown">
+        <em>◆</em>
+        <span>◆</span>
+    </div>
+    <p class="ui-tiptext ui-tiptext-message">
+        <i class="ui-tiptext-icon iconfont" title="提示">&#x00ED;</i>此服务支付宝不收取任何费用。
+    </p>
+</div>
+</div>
+<div class="highlight"><pre><code class="xml"><span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"ui-tiptext-container ui-tiptext-container-message"</span>&gt;</span>
+    <span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"ui-tiptext-arrow ui-tiptext-arrowdown"</span>&gt;</span>
+        <span class="tag">&lt;<span class="title">em</span>&gt;</span>◆<span class="tag">&lt;/<span class="title">em</span>&gt;</span>
+        <span class="tag">&lt;<span class="title">span</span>&gt;</span>◆<span class="tag">&lt;/<span class="title">span</span>&gt;</span>
+    <span class="tag">&lt;/<span class="title">div</span>&gt;</span>
+    <span class="tag">&lt;<span class="title">p</span> <span class="attribute">class</span>=<span class="value">"ui-tiptext ui-tiptext-message"</span>&gt;</span>
+        <span class="tag">&lt;<span class="title">i</span> <span class="attribute">class</span>=<span class="value">"ui-tiptext-icon iconfont"</span> <span class="attribute">title</span>=<span class="value">"提示"</span>&gt;</span>&amp;#x00ED;<span class="tag">&lt;/<span class="title">i</span>&gt;</span>此服务支付宝不收取任何费用。
+    <span class="tag">&lt;/<span class="title">p</span>&gt;</span>
+<span class="tag">&lt;/<span class="title">div</span>&gt;</span>
+</code></pre></div>
+<div class="nico-insert-code"><div class="ui-tiptext-container ui-tiptext-container-message">
+    <div class="ui-tiptext-arrow ui-tiptext-arrowleft">
+        <em>◆</em>
+        <span>◆</span>
+    </div>
+    <p class="ui-tiptext ui-tiptext-message">
+        <i class="ui-tiptext-icon iconfont" title="提示">&#x00ED;</i>此服务支付宝不收取任何费用。
+    </p>
+</div>
+</div>
+<div class="highlight"><pre><code class="xml"><span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"ui-tiptext-container ui-tiptext-container-message"</span>&gt;</span>
+    <span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"ui-tiptext-arrow ui-tiptext-arrowleft"</span>&gt;</span>
+        <span class="tag">&lt;<span class="title">em</span>&gt;</span>◆<span class="tag">&lt;/<span class="title">em</span>&gt;</span>
+        <span class="tag">&lt;<span class="title">span</span>&gt;</span>◆<span class="tag">&lt;/<span class="title">span</span>&gt;</span>
+    <span class="tag">&lt;/<span class="title">div</span>&gt;</span>
+    <span class="tag">&lt;<span class="title">p</span> <span class="attribute">class</span>=<span class="value">"ui-tiptext ui-tiptext-message"</span>&gt;</span>
+        <span class="tag">&lt;<span class="title">i</span> <span class="attribute">class</span>=<span class="value">"ui-tiptext-icon iconfont"</span> <span class="attribute">title</span>=<span class="value">"提示"</span>&gt;</span>&amp;#x00ED;<span class="tag">&lt;/<span class="title">i</span>&gt;</span>此服务支付宝不收取任何费用。
+    <span class="tag">&lt;/<span class="title">p</span>&gt;</span>
+<span class="tag">&lt;/<span class="title">div</span>&gt;</span>
+</code></pre></div>
   </div>
 </article>
 </div>
@@ -80,7 +274,7 @@
       <footer>
         <p class="powered">
         <a href="http://aralejs.org">Arale</a> •
-        <a href="http://seajs.org">SeaJS</a> •
+        <a href="http://aliceui.org">Alice</a> •
         <a href="https://github.com/spmjs/spm">spm</a> •
         <a href="http://lab.lepture.com/nico/">nico</a>
         </p>

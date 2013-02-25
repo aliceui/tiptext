@@ -2,15 +2,15 @@
     "name": "tiptext",
     "version": "1.0.0",
     "root": "alice",
-    "description": "",
+    "description": "提示文本组件。",
     "homepage": "",
     "author": "",
     "repository": {
         "type": "git",
-        "url": ""
+        "url": "https://github.com/aliceui/tiptext"
     },
     "bugs": {
-        "url": ""
+        "url": "https://github.com/aliceui/tiptext/issues"
     },
     "license": "MIT",
     "dependencies": {

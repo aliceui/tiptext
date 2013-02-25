@@ -16,7 +16,7 @@
 }
 </style>
 
-## ui-tiptext 文本
+### ui-tiptext 文本
 
 ````html
 <p class="ui-tiptext ui-tiptext-message">
@@ -55,7 +55,7 @@
 </p>
 ````
 
-## ui-tip-container 区块
+### ui-tip-container 区块
 
 ````html
 <div class="ui-tiptext-container ui-tiptext-container-message">
@@ -109,7 +109,7 @@
 ````
 
 
-## ui-tip-container 带箭头
+### ui-tip-container 带箭头
 
 ````html
 <div class="ui-tiptext-container ui-tiptext-container-message">

@@ -23,32 +23,32 @@
     <i class="ui-tiptext-icon iconfont" title="提示">&#x00ED;</i>
     此服务支付宝不收取任何费用。
 </p>
-<br>
+
 <p class="ui-tiptext ui-tiptext-error">
     <i class="ui-tiptext-icon iconfont" title="出错">&#x006B;</i>
     此服务支付宝不收取任何费用。
 </p>
-<br>
+
 <p class="ui-tiptext ui-tiptext-warning">
     <i class="ui-tiptext-icon iconfont" title="警告">&#x00EC;</i>
     此服务支付宝不收取任何费用。
 </p>
-<br>
+
 <p class="ui-tiptext ui-tiptext-success">
     <i class="ui-tiptext-icon iconfont" title="成功">&#x00EF;</i>
     此服务支付宝不收取任何费用。
 </p>
-<br>
+
 <p class="ui-tiptext ui-tiptext-question">
     <i class="ui-tiptext-icon iconfont" title="疑问">&#x00F1;</i>
     此服务支付宝不收取任何费用。
 </p>
-<br>
+
 <p class="ui-tiptext ui-tiptext-stop">
     <i class="ui-tiptext-icon iconfont" title="阻止">&#x00EE;</i>
     此服务支付宝不收取任何费用。
 </p>
-<br>
+
 <p class="ui-tiptext ui-tiptext-wait">
     <i class="ui-tiptext-icon iconfont" title="等待">&#x00F3;</i>
     此服务支付宝不收取任何费用。
@@ -64,42 +64,42 @@
         此服务支付宝不收取任何费用。
     </p>
 </div>
-
+<br>
 <div class="ui-tiptext-container ui-tiptext-container-error">
     <p class="ui-tiptext ui-tiptext-error">
         <i class="ui-tiptext-icon iconfont" title="提示">&#x006B;</i>
         此服务支付宝不收取任何费用。
     </p>
 </div>
-
+<br>
 <div class="ui-tiptext-container ui-tiptext-container-warning">
     <p class="ui-tiptext ui-tiptext-warning">
         <i class="ui-tiptext-icon iconfont" title="提示">&#x00EC;</i>
         此服务支付宝不收取任何费用。
     </p>
 </div>
-
+<br>
 <div class="ui-tiptext-container ui-tiptext-container-success">
     <p class="ui-tiptext ui-tiptext-success">
         <i class="ui-tiptext-icon iconfont" title="提示">&#x00EF;</i>
         此服务支付宝不收取任何费用。
     </p>
 </div>
-
+<br>
 <div class="ui-tiptext-container ui-tiptext-container-question">
     <p class="ui-tiptext ui-tiptext-question">
         <i class="ui-tiptext-icon iconfont" title="提示">&#x00F1;</i>
         此服务支付宝不收取任何费用。
     </p>
 </div>
-
+<br>
 <div class="ui-tiptext-container ui-tiptext-container-stop">
     <p class="ui-tiptext ui-tiptext-stop">
         <i class="ui-tiptext-icon iconfont" title="提示">&#x00EE;</i>
         此服务支付宝不收取任何费用。
     </p>
 </div>
-
+<br>
 <div class="ui-tiptext-container ui-tiptext-container-wait">
     <p class="ui-tiptext ui-tiptext-wait">
         <i class="ui-tiptext-icon iconfont" title="提示">&#x00F3;</i>

@@ -109,7 +109,7 @@
 ````
 
 
-### ui-tip-container 带箭头
+### 带上箭头
 
 ````html
 <div class="ui-tiptext-container ui-tiptext-container-message">
@@ -124,6 +124,8 @@
 </div>
 ````
 
+### 带下箭头
+
 ````html
 <div class="ui-tiptext-container ui-tiptext-container-message">
     <div class="ui-tiptext-arrow ui-tiptext-arrowdown">
@@ -136,6 +138,8 @@
     </p>
 </div>
 ````
+
+### 带左箭头
 
 ````html
 <div class="ui-tiptext-container ui-tiptext-container-message">

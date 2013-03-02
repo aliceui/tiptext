@@ -3,6 +3,9 @@
     "version": "1.0.0",
     "root": "alice",
     "description": "提示文本组件。",
+    "keywords": [
+        "提示文本"
+    ],
     "homepage": "",
     "author": "",
     "repository": {

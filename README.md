@@ -11,8 +11,12 @@
 <link type="text/css" rel="stylesheet" media="screen" href="src/tiptext.css">
 
 <style>
-.ui-tiptext-container {
-    margin-top: 8px;
+.ui-tiptext-container,
+.ui-tiptext {
+    margin-top: 5px;
+}
+.ui-tiptext-container .ui-tiptext {
+    margin-top: 0;
 }
 </style>
 

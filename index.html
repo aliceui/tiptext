@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Tiptext - tiptext</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="generator" content="nico 0.2.3" />
+    <meta name="generator" content="nico 0.2.4" />
     <link type="image/x-icon" href="./static/css/favicon.ico" rel="icon">
     <link rel="stylesheet" href="./static/css/normalize.css" />
     <link rel="stylesheet" href="./static/css/site.css" />
@@ -13,7 +13,7 @@
     <script src="./static/js/arale-helper.js"></script>
     <script src="./static/js/site.js"></script><script type="text/javascript">
   var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-36247332-1']);
+  _gaq.push(['_setAccount', 'UA-39169474-1']);
   _gaq.push(['_trackPageview']);
 
   (function() {
@@ -34,12 +34,14 @@
     seajs.config({ alias: {} })
 
     // for alice
+    var array = [];
     for(var dep in data.dependencies) {
         // 如果依赖的是样式模块
         if (data.dependencies[dep].indexOf('.css') > 0) {
-            seajs.use(dep);
+            array.push(dep);
         }
     }
+    seajs.use(array);
 
   })();
 </script>
@@ -72,15 +74,19 @@
     <p>带各类图标的提示文案，可带有提示箭头。</p>
 
 <hr/>
-<h2 id="%E6%BC%94%E7%A4%BA">演示</h2>
+<h2 id="演示">演示</h2>
 <p><link type="text/css" rel="stylesheet" media="screen" href="src/tiptext.css"></p>
 
 <style>
-.ui-tiptext-container {
-    margin-top: 8px;
+.ui-tiptext-container,
+.ui-tiptext {
+    margin-top: 5px;
+}
+.ui-tiptext-container .ui-tiptext {
+    margin-top: 0;
 }
 </style>
-<h3 id="ui-tiptext-%E6%96%87%E6%9C%AC">ui-tiptext 文本</h3>
+<h3 id="ui-tiptext-文本">ui-tiptext 文本</h3>
 <div class="nico-insert-code"><p class="ui-tiptext ui-tiptext-message">
     <i class="ui-tiptext-icon iconfont" title="提示">&#x00ED;</i>
     此服务支付宝不收取任何费用。
@@ -150,7 +156,7 @@
     <span class="tag">&lt;<span class="title">i</span> <span class="attribute">class</span>=<span class="value">"ui-tiptext-icon iconfont"</span> <span class="attribute">title</span>=<span class="value">"等待"</span>&gt;</span>&amp;#x00F3;<span class="tag">&lt;/<span class="title">i</span>&gt;</span>
     此服务支付宝不收取任何费用。
 <span class="tag">&lt;/<span class="title">p</span>&gt;</span>
-</code></pre></div><h3 id="ui-tip-container-%E5%8C%BA%E5%9D%97">ui-tip-container 区块</h3>
+</code></pre></div><h3 id="ui-tip-container-区块">ui-tip-container 区块</h3>
 <div class="nico-insert-code"><div class="ui-tiptext-container ui-tiptext-container-message">
     <p class="ui-tiptext ui-tiptext-message">
         <i class="ui-tiptext-icon iconfont" title="提示">&#x00ED;</i>
@@ -248,7 +254,7 @@
         此服务支付宝不收取任何费用。
     <span class="tag">&lt;/<span class="title">p</span>&gt;</span>
 <span class="tag">&lt;/<span class="title">div</span>&gt;</span>
-</code></pre></div><h3 id="%E5%B8%A6%E4%B8%8A%E7%AE%AD%E5%A4%B4">带上箭头</h3>
+</code></pre></div><h3 id="带上箭头">带上箭头</h3>
 <div class="nico-insert-code"><div class="ui-tiptext-container ui-tiptext-container-message">
     <div class="ui-tiptext-arrow ui-tiptext-arrowup">
         <em>◆</em>
@@ -270,7 +276,7 @@
         此服务支付宝不收取任何费用。
     <span class="tag">&lt;/<span class="title">p</span>&gt;</span>
 <span class="tag">&lt;/<span class="title">div</span>&gt;</span>
-</code></pre></div><h3 id="%E5%B8%A6%E4%B8%8B%E7%AE%AD%E5%A4%B4">带下箭头</h3>
+</code></pre></div><h3 id="带下箭头">带下箭头</h3>
 <div class="nico-insert-code"><div class="ui-tiptext-container ui-tiptext-container-message">
     <div class="ui-tiptext-arrow ui-tiptext-arrowdown">
         <em>◆</em>
@@ -292,7 +298,7 @@
         此服务支付宝不收取任何费用。
     <span class="tag">&lt;/<span class="title">p</span>&gt;</span>
 <span class="tag">&lt;/<span class="title">div</span>&gt;</span>
-</code></pre></div><h3 id="%E5%B8%A6%E5%B7%A6%E7%AE%AD%E5%A4%B4">带左箭头</h3>
+</code></pre></div><h3 id="带左箭头">带左箭头</h3>
 <div class="nico-insert-code"><div class="ui-tiptext-container ui-tiptext-container-message">
     <div class="ui-tiptext-arrow ui-tiptext-arrowleft">
         <em>◆</em>

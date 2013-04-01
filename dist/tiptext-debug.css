@@ -8,8 +8,6 @@
     margin: 0;
     color: #4D4D4D;
     position:relative;
-    vertical-align:middle;
-    line-height:16px;
     font-size: 12px;
     zoom:1;
 }
@@ -20,12 +18,11 @@
 }
 .ui-tiptext .iconfont {
     vertical-align: bottom;
-    font-size: 16px;
-    line-height: 16px;
+    font-size: 1.33em;
+    line-height: 1;
     text-shadow: 0 1px 0 #fff;
 }
 .ui-tiptext-icon {
-    margin-right: 3px;
     display:inline-block;
     *display:inline;
     *zoom:1;
@@ -87,10 +84,8 @@
     position: absolute;
     font-size: 14px;  
     font-family: "SimSun";
-    top: 0;
-    left: 0;
     font-style: normal;
-    line-height: 1.5;
+    line-height: 1;
 }
 
 .ui-tiptext-arrowup, .ui-tiptext-arrowleft, .ui-tiptext-arrowdown {
@@ -100,21 +95,15 @@
 
 .ui-tiptext-arrowup {
     left: 32px;
-    top:-10px;
-    _top:-9px;
+    top:-7px;
 }
 .ui-tiptext-arrowup em {
     top: -1px;
 }
-/* ie9  */
-:root .ui-tiptext-arrowup {
-    top:-9px\9;
-}
 
 .ui-tiptext-arrowleft {
     left: -6px;
-    top:5px;
-    _top:6px;
+    top:10px;
 }
 .ui-tiptext-arrowleft em {
     left:-1px;
@@ -122,15 +111,9 @@
 
 .ui-tiptext-arrowdown {
     left: 32px;
-    top:20px;
-    top:22px\0;
-    *top:22px;
-    _top:21px;
+    bottom: -3px;
 }
-/* ie9  */
-:root .ui-tiptext-arrowdown {
-    top:23px\9;
-}
+
 .ui-tiptext-arrowdown em {
     top: 1px;
 }

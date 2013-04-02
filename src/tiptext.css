@@ -15,10 +15,10 @@
     zoom:1;
 }
 .ui-tiptext .iconfont {
-    vertical-align: bottom;
     font-size: 1.33em;
-    line-height: 1;
     text-shadow: 0 1px 0 #fff;
+    position: relative;
+    top: 2px;
 }
 .ui-tiptext-icon {
     display:inline-block;

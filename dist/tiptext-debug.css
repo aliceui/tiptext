@@ -1,4 +1,4 @@
-/*! define alice/tiptext/1.0.0/tiptext-debug.css */
+/*! define alice/tiptext/1.0.1/tiptext-debug.css */
 /* alice.tiptext 样式模块 */
 
 @charset "utf-8";
@@ -17,6 +17,7 @@
 }
 .ui-tiptext .iconfont {
     font-size: 1.33em;
+    line-height: 1em;
     text-shadow: 0 1px 0 #fff;
     position: relative;
     top: 2px;

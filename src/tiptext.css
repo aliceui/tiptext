@@ -160,3 +160,11 @@
 .ui-tiptext-container-wait .ui-tiptext-arrow span {
     color:#FFF9D9;
 }
+
+.ui-tiptext-close {
+    position: absolute;
+    right: 10px;
+    top: 8px;
+    color: #60A2C5;
+    cursor: pointer;
+}

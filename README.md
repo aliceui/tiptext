@@ -67,6 +67,7 @@
         <i class="ui-tiptext-icon iconfont" title="提示">&#xF046;</i>
         此服务支付宝不收取任何费用。
     </p>
+    <div class="ui-tiptext-close iconfont">&#xF028;</div>    
 </div>
 <br>
 <div class="ui-tiptext-container ui-tiptext-container-error">

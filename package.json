@@ -1,6 +1,6 @@
 {
     "name": "tiptext",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "family": "alice",
     "description": "提示文本组件。",
     "keywords": [

@@ -9,6 +9,11 @@
     font-size: 12px;
     zoom:1;
 }
+
+.ui-tiptext-follow {
+    padding-left: 19px;
+}
+
 .ui-tiptext-container {
     padding: 8px 12px;
     position:relative;

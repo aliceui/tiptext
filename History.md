@@ -2,6 +2,12 @@
 
 ---
 
+## 1.1.0
+
+`tag:improved` 调整色调。
+
+![新版UI](https://i.alipayobjects.com/e/201306/SAq1QwK7Z.png)
+
 ## 1.0.2
 
 `tag:new` 添加了 `ui-tiptext-follow`。
